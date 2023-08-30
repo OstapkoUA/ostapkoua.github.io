@@ -1,1 +1,58 @@
-Привіт
+<!DOCTYPE html>
+<html lang="ua" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>УРОК 3. CSS</title>
+</head>
+<style>
+    html, body {
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .head-ostap {
+        color: rgb(43, 0, 171);
+        text-align: center;
+        text-decoration: underline;
+    }
+    .header {
+        display: flex;
+    }
+    .header__logo {
+        margin: 0 0 0 auto;
+    }
+    .main-menu {
+        margin: 0;
+        padding: 0;
+        display: flex; 
+        width: 100%;
+        gap: 5px;
+    }
+    .main-menu li {
+        background-color: navy;
+        color: white;
+        padding: 5px 20px;
+        list-style: none;
+        cursor: pointer;
+    }
+    .main-menu li:hover {
+        background-color: rgba(127, 23, 224, 0.879);
+    }
+</style>
+<body style="background-color: rgb(244, 245, 247); border: 2px solid navy; margin: 0; height: 100%;" >
+<div>
+    <ul class="main-menu">
+        <li>Головна</li>
+        <li>Про мене</li>
+        <li>Мої відео</li>
+        <li>Кенти</li>
+    </ul>
+    <div class="header">
+        Some logo
+    </div>
+</div>
+
+    
+</body>
+</html>
